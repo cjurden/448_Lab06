@@ -98,14 +98,29 @@ def printMatrix(matrix):
         
 ############################################################################################
 #program
-print('Multiplication: ')
-MultiplyMatrices(m1, m3)
 
-print('Addition: ')
-AddMatrices(m2, m2)
 
-print('transpose: ')
-TransposeMatrix(m1)
+if ((checkMat(m1)&&checkMat(m3))==True):
+	print('Multiplication: ')
+	MultiplyMatrices(m1, m3)
+else:
+	print 'Invalid matrices'
+
+if ((checkMat(m1)&&checkMat(m2))==True):
+	print('Addition: ')
+	AddMatrices(m2, m2)
+
+else:
+	print 'Invalid matrices'
+
+if (checkMat(m1)==True):
+	print('transpose: ')
+	TransposeMatrix(m1)
+else:
+	print 'Invalid matrices'
+
+
+
 
 
 
