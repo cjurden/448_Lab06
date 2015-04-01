@@ -101,20 +101,16 @@ def printMatrix(matrix):
 
 
 if ((checkMat(m1) and checkMat(m3))==True):
-	print('Multiplication: ')
 	MultiplyMatrices(m1, m3)
 else:
 	print 'Invalid matrices'
 
 if ((checkMat(m1) and checkMat(m2))==True):
-	print('Addition: ')
 	AddMatrices(m2, m2)
-
 else:
 	print 'Invalid matrices'
 
 if (checkMat(m1)==True):
-	print('transpose: ')
 	TransposeMatrix(m1)
 else:
 	print 'Invalid matrices'
