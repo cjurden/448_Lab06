@@ -100,13 +100,13 @@ def printMatrix(matrix):
 #program
 
 
-if ((checkMat(m1)&&checkMat(m3))==True):
+if ((checkMat(m1) and checkMat(m3))==True):
 	print('Multiplication: ')
 	MultiplyMatrices(m1, m3)
 else:
 	print 'Invalid matrices'
 
-if ((checkMat(m1)&&checkMat(m2))==True):
+if ((checkMat(m1) and checkMat(m2))==True):
 	print('Addition: ')
 	AddMatrices(m2, m2)
 
